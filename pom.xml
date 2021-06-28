@@ -229,7 +229,7 @@
 <dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-batch-admin-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
 <dependency><groupId>org.jboss.spec.javax.annotation</groupId><artifactId>jboss-annotations-api_1.2_spec</artifactId><version>1.0.0.Final</version><scope>test</scope></dependency>
 <dependency><groupId>org.glassfish.jersey.core</groupId><artifactId>jersey-client</artifactId><version>2.21.1</version><scope>test</scope></dependency>
-<dependency><groupId>org.quartz-scheduler</groupId><artifactId>quartz</artifactId><version>2.2.3</version><scope>compile</scope></dependency>
+<dependency><groupId>org.quartz-scheduler</groupId><artifactId>quartz</artifactId><version>2.3.2</version><scope>compile</scope></dependency>
 <dependency><groupId>org.webjars.npm</groupId><artifactId>lodash.isboolean</artifactId><version>3.0.3</version><scope>compile</scope></dependency>
 <dependency><groupId>org.webjars.npm</groupId><artifactId>safe-buffer</artifactId><version>5.2.1</version><scope>compile</scope></dependency>
 <dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-crem-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
