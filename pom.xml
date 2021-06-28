@@ -134,7 +134,7 @@
 	<dependency><groupId>javax.el</groupId><artifactId>javax.el-api</artifactId><version>2.2.4</version><scope>provided</scope></dependency>
 	<dependency><groupId>org.jboss.weld.environment</groupId><artifactId>weld-environment-common</artifactId><version>2.4.7.Final</version><scope>test</scope></dependency>
 	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-batch-contexte</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
-	<dependency><groupId>org.apache.zookeeper</groupId><artifactId>zookeeper</artifactId><version>3.4.10</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.apache.zookeeper</groupId><artifactId>zookeeper</artifactId><version>3.4.14</version><scope>compile</scope></dependency>
 	<dependency><groupId>xpp3</groupId><artifactId>xpp3</artifactId><version>1.1.4c</version><scope>runtime</scope></dependency>
 	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-contexte-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
 	<dependency><groupId>org.glassfish.jersey.test-framework</groupId><artifactId>jersey-test-framework-core</artifactId><version>2.22.1</version><scope>test</scope></dependency>
