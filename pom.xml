@@ -158,7 +158,7 @@
 	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-client-asynchrone-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
 	<dependency><groupId>org.apache.commons</groupId><artifactId>commons-math3</artifactId><version>3.6.1</version><scope>compile</scope></dependency>
 	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-supervision</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
-	<dependency><groupId>commons-io</groupId><artifactId>commons-io</artifactId><version>2.4</version><scope>compile</scope></dependency>
+	<dependency><groupId>commons-io</groupId><artifactId>commons-io</artifactId><version>2.7</version><scope>compile</scope></dependency>
 	<dependency><groupId>io.jsonwebtoken</groupId><artifactId>jjwt</artifactId><version>0.9.1</version><scope>compile</scope></dependency>
 	<dependency><groupId>com.sun.mail</groupId><artifactId>javax.mail</artifactId><version>1.5.0</version><scope>provided</scope></dependency>
 	<dependency><groupId>org.apache.httpcomponents</groupId><artifactId>httpcore</artifactId><version>4.4.6</version><scope>compile</scope></dependency>
