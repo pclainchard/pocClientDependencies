@@ -224,7 +224,7 @@
 	<dependency><groupId>fr.pe.sldng.integration</groupId><artifactId>sldng-batch-integration-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
 	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-quartz-admin-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
 	<dependency><groupId>org.eclipse.persistence</groupId><artifactId>javax.persistence</artifactId><version>2.1.1</version><scope>provided</scope></dependency>
-	<dependency><groupId>org.apache.tika</groupId><artifactId>tika-core</artifactId><version>1.10</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.apache.tika</groupId><artifactId>tika-core</artifactId><version>1.22</version><scope>compile</scope></dependency>
 	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-cache-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
 	<dependency><groupId>org.hamcrest</groupId><artifactId>hamcrest-core</artifactId><version>1.3</version><scope>test</scope></dependency>
 	<dependency><groupId>org.slf4j</groupId><artifactId>jcl-over-slf4j</artifactId><version>1.7.7</version><scope>compile</scope></dependency>
