@@ -58,7 +58,7 @@
 	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log-base-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
 	<dependency><groupId>com.google.guava</groupId><artifactId>guava</artifactId><version>19.0</version><scope>compile</scope></dependency>
 	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
-	<dependency><groupId>com.fasterxml.jackson.core</groupId><artifactId>jackson-databind</artifactId><version>2.10.1</version><scope>compile</scope></dependency>
+	<dependency><groupId>com.fasterxml.jackson.core</groupId><artifactId>jackson-databind</artifactId><version>2.10.5.1</version><scope>compile</scope></dependency>
 	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-crem-emission-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
 	<dependency><groupId>org.jboss.weld</groupId><artifactId>weld-api</artifactId><version>2.4.SP2</version><scope>test</scope></dependency>
 	<dependency><groupId>com.mchange</groupId><artifactId>c3p0</artifactId><version>0.9.5.4</version><scope>compile</scope></dependency>
