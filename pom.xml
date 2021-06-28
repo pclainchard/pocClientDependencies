@@ -85,7 +85,7 @@
 	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log-achaud</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
 	<dependency><groupId>org.jboss.weld</groupId><artifactId>weld-spi</artifactId><version>2.4.SP2</version><scope>test</scope></dependency>
 	<dependency><groupId>org.apache.deltaspike.core</groupId><artifactId>deltaspike-core-api</artifactId><version>1.0.1</version><scope>test</scope></dependency>
-	<dependency><groupId>org.apache.commons</groupId><artifactId>commons-collections4</artifactId><version>4.0</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.apache.commons</groupId><artifactId>commons-collections4</artifactId><version>4.1</version><scope>compile</scope></dependency>
 	<dependency><groupId>fr.pe.picpe.tools</groupId><artifactId>Manifest</artifactId><version>2.0.0-86</version><scope>compile</scope></dependency>
 	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-annuaire-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
 	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log-centralise-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
