@@ -15,250 +15,249 @@
   </properties>
 
   <dependencies>
-<dependency><groupId>fr.pe.gssi.tech.oi059</groupId><artifactId>oi059-testutils-mock-distant-commun</artifactId><version>2.0.2</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-quartz-admin-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>net.jcip</groupId><artifactId>jcip-annotations</artifactId><version>1.0</version><scope>test</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-securite-util</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>org.apache.deltaspike.core</groupId><artifactId>deltaspike-core-impl</artifactId><version>1.0.1</version><scope>test</scope></dependency>
-<dependency><groupId>fr.pe.gssi.tech.oi059</groupId><artifactId>oi059-testutils-mock-distant-sld</artifactId><version>2.0.2</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-quartz-admin-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-batch-contexte</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.integration</groupId><artifactId>sldng-integration-rest-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-parametrage</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-batch-admin</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-batch-admin-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>org.eclipse.persistence</groupId><artifactId>eclipselink</artifactId><version>2.6.3</version><scope>provided</scope></dependency>
-<dependency><groupId>org.glassfish</groupId><artifactId>javax.json</artifactId><version>1.0.4</version><scope>provided</scope></dependency>
-<dependency><groupId>org.jvnet.mimepull</groupId><artifactId>mimepull</artifactId><version>1.9.6</version><scope>provided</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log-centralise</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-snmp-api</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>com.sun.jersey</groupId><artifactId>jersey-core</artifactId><version>1.19.4</version><scope>compile</scope></dependency>
-<dependency><groupId>javax.servlet</groupId><artifactId>javax.servlet-api</artifactId><version>3.0.1</version><scope>test</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.codehaus.jackson</groupId><artifactId>jackson-jaxrs</artifactId><version>1.9.13</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.moorea</groupId><artifactId>sldng-moorea-bouchons-asynchrone</artifactId><version>2.1.2-b20160330-20</version><scope>compile</scope></dependency>
-<dependency><groupId>org.jglue.cdi-unit</groupId><artifactId>cdi-unit</artifactId><version>4.1.0</version><scope>test</scope></dependency>
-<dependency><groupId>com.fasterxml.jackson.module</groupId><artifactId>jackson-module-jaxb-annotations</artifactId><version>2.5.4</version><scope>provided</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-anonymiseur</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-crem-emission-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-client-asynchrone</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>com.sun.jersey</groupId><artifactId>jersey-json</artifactId><version>1.19.4</version><scope>compile</scope></dependency>
-<dependency><groupId>com.emc.ecs</groupId><artifactId>smart-client</artifactId><version>2.2.1</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-chargement</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log-base-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-jms-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>net.ttddyy</groupId><artifactId>datasource-proxy</artifactId><version>1.4.6</version><scope>compile</scope></dependency>
-<dependency><groupId>c3p0</groupId><artifactId>c3p0</artifactId><version>0.9.1.1</version><scope>compile</scope></dependency>
-<dependency><groupId>org.glassfish.jersey.test-framework.providers</groupId><artifactId>jersey-test-framework-provider-grizzly2</artifactId><version>2.21.1</version><scope>test</scope></dependency>
-<dependency><groupId>com.google.guava</groupId><artifactId>guava</artifactId><version>19.0</version><scope>compile</scope></dependency>
-<dependency><groupId>com.fasterxml.jackson.core</groupId><artifactId>jackson-databind</artifactId><version>2.10.1</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.gssi.tech.oi059</groupId><artifactId>oi059-testutils-mock-distant-rest</artifactId><version>2.0.2</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-quartz-admin</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-contexte</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.jboss.weld</groupId><artifactId>weld-api</artifactId><version>2.4.SP2</version><scope>test</scope></dependency>
-<dependency><groupId>fr.pe.sldng.integration</groupId><artifactId>sldng-batch-integration</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-crem-emission-admin-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-client-rest-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>com.fasterxml.jackson.jaxrs</groupId><artifactId>jackson-jaxrs-json-provider</artifactId><version>2.5.4</version><scope>provided</scope></dependency>
-<dependency><groupId>org.javassist</groupId><artifactId>javassist</artifactId><version>3.18.1-GA</version><scope>compile</scope></dependency>
-<dependency><groupId>org.eclipse.persistence</groupId><artifactId>commonj.sdo</artifactId><version>2.1.1</version><scope>provided</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-annuaire-impl</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.stra.service.gedfa</groupId><artifactId>gedfa-d57-client-sld</artifactId><version>1.0.9-8</version><scope>compile</scope></dependency>
-<dependency><groupId>org.glassfish.hk2</groupId><artifactId>osgi-resource-locator</artifactId><version>1.0.1</version><scope>provided</scope></dependency>
-<dependency><groupId>org.jboss.resteasy</groupId><artifactId>resteasy-jaxrs</artifactId><version>3.0.14.Final</version><scope>test</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-annuaire-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.jboss.weld.probe</groupId><artifactId>weld-probe-core</artifactId><version>2.4.7.Final</version><scope>test</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-quartz</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.webjars.npm</groupId><artifactId>jws</artifactId><version>3.2.2</version><scope>compile</scope></dependency>
-<dependency><groupId>joda-time</groupId><artifactId>joda-time</artifactId><version>2.8.2</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-erreur-rest-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.jboss.weld</groupId><artifactId>weld-spi</artifactId><version>2.4.SP2</version><scope>test</scope></dependency>
-<dependency><groupId>org.apache.deltaspike.core</groupId><artifactId>deltaspike-core-api</artifactId><version>1.0.1</version><scope>test</scope></dependency>
-<dependency><groupId>org.apache.commons</groupId><artifactId>commons-collections4</artifactId><version>4.0</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.picpe.tools</groupId><artifactId>Manifest</artifactId><version>2.0.0-86</version><scope>compile</scope></dependency>
-<dependency><groupId>log4j</groupId><artifactId>log4j</artifactId><version>1.2.17</version><scope>runtime</scope></dependency>
-<dependency><groupId>fr.pe.sldng.integration</groupId><artifactId>sldng-integration-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.webjars.npm</groupId><artifactId>jwa</artifactId><version>1.4.1</version><scope>compile</scope></dependency>
-<dependency><groupId>org.webjars.npm</groupId><artifactId>lodash.isstring</artifactId><version>4.0.1</version><scope>compile</scope></dependency>
-<dependency><groupId>com.sun.jersey</groupId><artifactId>jersey-client</artifactId><version>1.19.4</version><scope>compile</scope></dependency>
-<dependency><groupId>com.emc.ecs</groupId><artifactId>object-client</artifactId><version>3.1.3</version><scope>compile</scope></dependency>
-<dependency><groupId>com.sun.xml.bind</groupId><artifactId>jaxb-impl</artifactId><version>2.2.3-1</version><scope>compile</scope></dependency>
-<dependency><groupId>org.glassfish.jersey.connectors</groupId><artifactId>jersey-apache-connector</artifactId><version>2.21.1</version><scope>runtime</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-parametrage-impl</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-quartz-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-client-sld</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-jms-externe</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-cache-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log-achaud-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log-base-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-client-sld-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-annuaire-impl-externe</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.codehaus.jackson</groupId><artifactId>jackson-mapper-asl</artifactId><version>1.9.13</version><scope>compile</scope></dependency>
-<dependency><groupId>xmlunit</groupId><artifactId>xmlunit</artifactId><version>1.5</version><scope>compile</scope></dependency>
-<dependency><groupId>org.ow2.asm</groupId><artifactId>asm-debug-all</artifactId><version>5.0.4</version><scope>test</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-supervision-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.noggit</groupId><artifactId>noggit</artifactId><version>0.8</version><scope>compile</scope></dependency>
-<dependency><groupId>org.b1.pack</groupId><artifactId>lzma-sdk-4j</artifactId><version>9.22.0</version><scope>compile</scope></dependency>
-<dependency><groupId>org.skyscreamer</groupId><artifactId>jsonassert</artifactId><version>1.2.3</version><scope>compile</scope></dependency>
-<dependency><groupId>com.fasterxml</groupId><artifactId>classmate</artifactId><version>1.0.0</version><scope>provided</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log-centralise-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-batch-contexte-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-client-sld-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-supervision-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>org.webjars.npm</groupId><artifactId>jsonwebtoken</artifactId><version>8.5.1</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.integration</groupId><artifactId>sldng-batch-integration-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-xmlv4-api</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>org.jboss.weld.se</groupId><artifactId>weld-se-core</artifactId><version>2.4.7.Final</version><scope>test</scope></dependency>
-<dependency><groupId>org.glassfish.grizzly</groupId><artifactId>grizzly-framework</artifactId><version>2.3.22</version><scope>test</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-crem-emission-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>org.hibernate</groupId><artifactId>hibernate-validator</artifactId><version>5.1.3.Final</version><scope>provided</scope></dependency>
-<dependency><groupId>org.objenesis</groupId><artifactId>objenesis</artifactId><version>2.1</version><scope>test</scope></dependency>
-<dependency><groupId>org.apache.httpcomponents</groupId><artifactId>httpmime</artifactId><version>4.5.3</version><scope>compile</scope></dependency>
-<dependency><groupId>com.sun.jersey.contribs</groupId><artifactId>jersey-apache-client4</artifactId><version>1.19.4</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-client-rest-api</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>org.glassfish.grizzly</groupId><artifactId>grizzly-http-servlet</artifactId><version>2.3.22</version><scope>test</scope></dependency>
-<dependency><groupId>org.webjars.npm</groupId><artifactId>ms</artifactId><version>2.1.3</version><scope>compile</scope></dependency>
-<dependency><groupId>org.glassfish.jersey.media</groupId><artifactId>jersey-media-jaxb</artifactId><version>2.21.1</version><scope>test</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-crem-emission-admin</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.glassfish.jersey.containers</groupId><artifactId>jersey-container-servlet</artifactId><version>2.21.1</version><scope>test</scope></dependency>
-<dependency><groupId>javax.el</groupId><artifactId>javax.el-api</artifactId><version>2.2.4</version><scope>provided</scope></dependency>
-<dependency><groupId>fr.pe.sldng.integration</groupId><artifactId>sldng-batch-integration-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-cache-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.jboss.weld.environment</groupId><artifactId>weld-environment-common</artifactId><version>2.4.7.Final</version><scope>test</scope></dependency>
-<dependency><groupId>org.apache.zookeeper</groupId><artifactId>zookeeper</artifactId><version>3.4.10</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-xmlv4-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>xpp3</groupId><artifactId>xpp3</artifactId><version>1.1.4c</version><scope>runtime</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-crem-emission</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.apache.commons</groupId><artifactId>commons-lang3</artifactId><version>3.4</version><scope>compile</scope></dependency>
-<dependency><groupId>org.webjars.npm</groupId><artifactId>lodash.isplainobject</artifactId><version>4.0.6</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.gssi.tech.oi059</groupId><artifactId>oi059-testutils-mock-distant-integration</artifactId><version>2.0.2</version><scope>compile</scope></dependency>
-<dependency><groupId>org.glassfish.hk2</groupId><artifactId>hk2-utils</artifactId><version>2.4.0-b31</version><scope>provided</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-snmp</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>org.glassfish.hk2.external</groupId><artifactId>aopalliance-repackaged</artifactId><version>2.4.0-b31</version><scope>provided</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-chargement-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.glassfish.jersey.bundles.repackaged</groupId><artifactId>jersey-guava</artifactId><version>2.21.1</version><scope>provided</scope></dependency>
-<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-client-rest-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>org.mockito</groupId><artifactId>mockito-core</artifactId><version>1.10.19</version><scope>test</scope></dependency>
-<dependency><groupId>io.github.classgraph</groupId><artifactId>classgraph</artifactId><version>4.1.2</version><scope>test</scope></dependency>
-<dependency><groupId>org.webjars.npm</groupId><artifactId>lodash.once</artifactId><version>4.1.1</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log-centralise-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.apache.solr</groupId><artifactId>solr-solrj</artifactId><version>7.2.1</version><scope>compile</scope></dependency>
-<dependency><groupId>org.jboss.spec.javax.ws.rs</groupId><artifactId>jboss-jaxrs-api_2.0_spec</artifactId><version>1.0.0.Final</version><scope>test</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-anonymiseur-api</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>org.apache.commons</groupId><artifactId>commons-math3</artifactId><version>3.6.1</version><scope>compile</scope></dependency>
-<dependency><groupId>org.glassfish.jersey.media</groupId><artifactId>jersey-media-multipart</artifactId><version>2.21.1</version><scope>provided</scope></dependency>
-<dependency><groupId>commons-io</groupId><artifactId>commons-io</artifactId><version>2.4</version><scope>compile</scope></dependency>
-<dependency><groupId>io.jsonwebtoken</groupId><artifactId>jjwt</artifactId><version>0.9.1</version><scope>compile</scope></dependency>
-<dependency><groupId>com.sun.mail</groupId><artifactId>javax.mail</artifactId><version>1.5.0</version><scope>provided</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-snmp-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>org.apache.httpcomponents</groupId><artifactId>httpcore</artifactId><version>4.4.6</version><scope>compile</scope></dependency>
-<dependency><groupId>org.glassfish.jersey.core</groupId><artifactId>jersey-common</artifactId><version>2.21.1</version><scope>provided</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log-achaud</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-batch-contexte-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>com.fasterxml.jackson.core</groupId><artifactId>jackson-core</artifactId><version>2.10.1</version><scope>compile</scope></dependency>
-<dependency><groupId>org.codehaus.jackson</groupId><artifactId>jackson-core-asl</artifactId><version>1.9.13</version><scope>compile</scope></dependency>
-<dependency><groupId>org.glassfish.jersey.media</groupId><artifactId>jersey-media-json-jackson</artifactId><version>2.21.1</version><scope>provided</scope></dependency>
-<dependency><groupId>com.fasterxml.jackson.jaxrs</groupId><artifactId>jackson-jaxrs-base</artifactId><version>2.5.4</version><scope>provided</scope></dependency>
-<dependency><groupId>fr.pe.sldng.integration</groupId><artifactId>sldng-integration-rest-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.quartz-scheduler</groupId><artifactId>quartz-jobs</artifactId><version>2.2.3</version><scope>runtime</scope></dependency>
-<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-crem-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>javax.validation</groupId><artifactId>validation-api</artifactId><version>1.1.0.Final</version><scope>provided</scope></dependency>
-<dependency><groupId>org.json</groupId><artifactId>json</artifactId><version>20190722</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-parametrage-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.glassfish.jersey.containers</groupId><artifactId>jersey-container-servlet-core</artifactId><version>2.21.1</version><scope>test</scope></dependency>
-<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-securite-api</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>org.jdom</groupId><artifactId>jdom2</artifactId><version>2.0.6</version><scope>compile</scope></dependency>
-<dependency><groupId>org.apache.httpcomponents</groupId><artifactId>httpclient</artifactId><version>4.5.3</version><scope>compile</scope></dependency>
-<dependency><groupId>org.webjars.npm</groupId><artifactId>lodash.isnumber</artifactId><version>3.0.3</version><scope>compile</scope></dependency>
-<dependency><groupId>org.webjars.npm</groupId><artifactId>lodash.includes</artifactId><version>4.3.0</version><scope>compile</scope></dependency>
-<dependency><groupId>javax.xml.bind</groupId><artifactId>jaxb-api</artifactId><version>2.2.2</version><scope>compile</scope></dependency>
-<dependency><groupId>javax.activation</groupId><artifactId>activation</artifactId><version>1.1</version><scope>compile</scope></dependency>
-<dependency><groupId>org.reflections</groupId><artifactId>reflections</artifactId><version>0.9.10</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.integration</groupId><artifactId>sldng-integration-rest</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>javax.enterprise</groupId><artifactId>cdi-api</artifactId><version>1.2</version><scope>test</scope></dependency>
-<dependency><groupId>org.jboss.logging</groupId><artifactId>jboss-logging</artifactId><version>3.1.3.GA</version><scope>provided</scope></dependency>
-<dependency><groupId>org.glassfish.grizzly</groupId><artifactId>grizzly-http</artifactId><version>2.3.22</version><scope>test</scope></dependency>
-<dependency><groupId>org.glassfish.jersey.core</groupId><artifactId>jersey-server</artifactId><version>2.21.1</version><scope>test</scope></dependency>
-<dependency><groupId>fr.pe.stra.service.ds004</groupId><artifactId>ds004-docnums-rest</artifactId><version>3.17.3-33</version><scope>compile</scope></dependency>
-<dependency><groupId>commons-codec</groupId><artifactId>commons-codec</artifactId><version>1.10</version><scope>compile</scope></dependency>
-<dependency><groupId>org.webjars.npm</groupId><artifactId>buffer-equal-constant-time</artifactId><version>1.0.1</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-exception-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-client-event</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-erreur-rest-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-batch-commun-impl</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>javax.inject</groupId><artifactId>javax.inject</artifactId><version>1</version><scope>test</scope></dependency>
-<dependency><groupId>org.webjars.npm</groupId><artifactId>lodash.isinteger</artifactId><version>4.0.4</version><scope>compile</scope></dependency>
-<dependency><groupId>javax.xml.stream</groupId><artifactId>stax-api</artifactId><version>1.0-2</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.rind.service.da014</groupId><artifactId>da014-rci-sldcli-clientSLDV4</artifactId><version>1.6-1</version><scope>compile</scope></dependency>
-<dependency><groupId>org.codehaus.jackson</groupId><artifactId>jackson-xc</artifactId><version>1.9.13</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-annuaire</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-client-rest-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>log4j</groupId><artifactId>apache-log4j-extras</artifactId><version>1.2.17</version><scope>runtime</scope></dependency>
-<dependency><groupId>fr.pe.dr7.candidat</groupId><artifactId>DR7Candidat-client-SLD</artifactId><version>163.0.0</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.d01.internetdec</groupId><artifactId>D01InternetDEC-client-SLD</artifactId><version>163.0.0</version><scope>compile</scope></dependency>
-<dependency><groupId>com.fasterxml.jackson.core</groupId><artifactId>jackson-annotations</artifactId><version>2.10.1</version><scope>compile</scope></dependency>
-<dependency><groupId>com.emc.ecs</groupId><artifactId>object-transform</artifactId><version>1.1.0</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-supervision</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.glassfish.hk2</groupId><artifactId>hk2-locator</artifactId><version>2.4.0-b31</version><scope>provided</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log-base</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.slf4j</groupId><artifactId>slf4j-api</artifactId><version>1.7.7</version><scope>compile</scope></dependency>
-<dependency><groupId>com.google.code.findbugs</groupId><artifactId>annotations</artifactId><version>2.0.1</version><scope>compile</scope></dependency>
-<dependency><groupId>org.glassfish.jersey.ext</groupId><artifactId>jersey-entity-filtering</artifactId><version>2.21.1</version><scope>provided</scope></dependency>
-<dependency><groupId>org.jboss.spec.javax.interceptor</groupId><artifactId>jboss-interceptors-api_1.2_spec</artifactId><version>1.0.0.Final</version><scope>test</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-configuration-externe-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-annuaire-fichier-impl</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-erreur-rest</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.webjars.npm</groupId><artifactId>semver</artifactId><version>5.7.1</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-anonymiseur-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>org.webjars.npm</groupId><artifactId>ecdsa-sig-formatter</artifactId><version>1.0.11</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-batch-lanceur-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.snmp4j</groupId><artifactId>snmp4j</artifactId><version>2.5.6</version><scope>runtime</scope></dependency>
-<dependency><groupId>org.jboss.classfilewriter</groupId><artifactId>jboss-classfilewriter</artifactId><version>1.1.2.Final</version><scope>test</scope></dependency>
-<dependency><groupId>org.jboss.weld</groupId><artifactId>weld-core-impl</artifactId><version>2.4.7.Final</version><scope>test</scope></dependency>
-<dependency><groupId>fr.pe.sldng.integration</groupId><artifactId>sldng-integration-commun-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-client-asynchrone-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-carteappel-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>org.eclipse.persistence</groupId><artifactId>javax.persistence</artifactId><version>2.1.1</version><scope>provided</scope></dependency>
-<dependency><groupId>org.apache.tika</groupId><artifactId>tika-core</artifactId><version>1.10</version><scope>compile</scope></dependency>
-<dependency><groupId>org.hamcrest</groupId><artifactId>hamcrest-core</artifactId><version>1.3</version><scope>test</scope></dependency>
-<dependency><groupId>org.slf4j</groupId><artifactId>jcl-over-slf4j</artifactId><version>1.7.7</version><scope>compile</scope></dependency>
-<dependency><groupId>org.codehaus.woodstox</groupId><artifactId>woodstox-core-asl</artifactId><version>4.4.1</version><scope>compile</scope></dependency>
-<dependency><groupId>org.glassfish.jersey.containers</groupId><artifactId>jersey-container-grizzly2-http</artifactId><version>2.21.1</version><scope>test</scope></dependency>
-<dependency><groupId>org.glassfish.grizzly</groupId><artifactId>grizzly-http-server</artifactId><version>2.3.22</version><scope>test</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-contexte-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-batch-admin-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.jboss.spec.javax.annotation</groupId><artifactId>jboss-annotations-api_1.2_spec</artifactId><version>1.0.0.Final</version><scope>test</scope></dependency>
-<dependency><groupId>org.glassfish.jersey.core</groupId><artifactId>jersey-client</artifactId><version>2.21.1</version><scope>test</scope></dependency>
-<dependency><groupId>org.quartz-scheduler</groupId><artifactId>quartz</artifactId><version>2.2.3</version><scope>compile</scope></dependency>
-<dependency><groupId>org.webjars.npm</groupId><artifactId>lodash.isboolean</artifactId><version>3.0.3</version><scope>compile</scope></dependency>
-<dependency><groupId>org.webjars.npm</groupId><artifactId>safe-buffer</artifactId><version>5.2.1</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-crem-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-client-asynchrone-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>fr.pe.sldng.moorea</groupId><artifactId>sldng-moorea-bouchons-commun</artifactId><version>2.1.2-b20160330-20</version><scope>compile</scope></dependency>
-<dependency><groupId>javax</groupId><artifactId>javaee-api</artifactId><version>7.0</version><scope>provided</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-quartz-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-cache</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-crem-emission-admin-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>javax.ws.rs</groupId><artifactId>javax.ws.rs-api</artifactId><version>2.0</version><scope>provided</scope></dependency>
-<dependency><groupId>org.glassfish.jersey.test-framework</groupId><artifactId>jersey-test-framework-core</artifactId><version>2.21.1</version><scope>test</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-client-rest</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>javax.annotation</groupId><artifactId>javax.annotation-api</artifactId><version>1.2</version><scope>provided</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-chargement-impl</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>org.glassfish.hk2</groupId><artifactId>hk2-api</artifactId><version>2.4.0-b31</version><scope>provided</scope></dependency>
-<dependency><groupId>org.codehaus.woodstox</groupId><artifactId>stax2-api</artifactId><version>3.1.4</version><scope>compile</scope></dependency>
-<dependency><groupId>net.sf.ehcache</groupId><artifactId>ehcache-core</artifactId><version>2.6.11</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-batch-commun-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.codehaus.jettison</groupId><artifactId>jettison</artifactId><version>1.1</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-contexte-api</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>junit</groupId><artifactId>junit</artifactId><version>4.12</version><scope>test</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-batch-lanceur-impl</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.glassfish.hk2.external</groupId><artifactId>javax.inject</artifactId><version>2.4.0-b31</version><scope>provided</scope></dependency>
-<dependency><groupId>org.beanio</groupId><artifactId>beanio</artifactId><version>2.1.0</version><scope>compile</scope></dependency>
-<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-jms-api</artifactId><version>2.9.3-b20200226-01</version><scope>runtime</scope></dependency>
-<dependency><groupId>org.jboss.spec.javax.el</groupId><artifactId>jboss-el-api_3.0_spec</artifactId><version>1.0.0.Alpha1</version><scope>test</scope></dependency>
-<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-batch-lanceur</artifactId><version>2.9.3-b20200226-01</version><scope>compile</scope></dependency>
-<dependency><groupId>org.glassfish.jersey.ext</groupId><artifactId>jersey-bean-validation</artifactId><version>2.21.1</version><scope>provided</scope></dependency>
-<dependency><groupId>org.glassfish.jersey.containers</groupId><artifactId>jersey-container-grizzly2-servlet</artifactId><version>2.21.1</version><scope>test</scope></dependency>
-
+	<dependency><groupId>net.jcip</groupId><artifactId>jcip-annotations</artifactId><version>1.0</version><scope>test</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-quartz-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.stra.service.ds004</groupId><artifactId>ds004-docnums-rest</artifactId><version>3.17.4-SNAPSHOT</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-chargement-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-crem-emission</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.apache.deltaspike.core</groupId><artifactId>deltaspike-core-impl</artifactId><version>1.0.1</version><scope>test</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-batch-admin-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.glassfish.jersey.media</groupId><artifactId>jersey-media-multipart</artifactId><version>2.22.1</version><scope>provided</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-crem-emission-admin-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.glassfish.jersey.core</groupId><artifactId>jersey-common</artifactId><version>2.22.1</version><scope>provided</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-client-rest</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.eclipse.persistence</groupId><artifactId>eclipselink</artifactId><version>2.6.3</version><scope>provided</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-client-sld</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.integration</groupId><artifactId>sldng-integration-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.glassfish</groupId><artifactId>javax.json</artifactId><version>1.0.4</version><scope>provided</scope></dependency>
+	<dependency><groupId>org.jvnet.mimepull</groupId><artifactId>mimepull</artifactId><version>1.9.6</version><scope>provided</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-cache-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-anonymiseur-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-erreur-rest-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.glassfish.jersey.containers</groupId><artifactId>jersey-container-servlet-core</artifactId><version>2.22.1</version><scope>test</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-client-rest-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-quartz-admin</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-erreur-rest</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>com.sun.jersey</groupId><artifactId>jersey-core</artifactId><version>1.19.4</version><scope>compile</scope></dependency>
+	<dependency><groupId>javax.servlet</groupId><artifactId>javax.servlet-api</artifactId><version>3.0.1</version><scope>test</scope></dependency>
+	<dependency><groupId>org.codehaus.jackson</groupId><artifactId>jackson-jaxrs</artifactId><version>1.9.13</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.moorea</groupId><artifactId>sldng-moorea-bouchons-asynchrone</artifactId><version>2.1.2-b20160330-20</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-quartz</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.jglue.cdi-unit</groupId><artifactId>cdi-unit</artifactId><version>4.1.0</version><scope>test</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-contexte</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>com.fasterxml.jackson.module</groupId><artifactId>jackson-module-jaxb-annotations</artifactId><version>2.5.4</version><scope>provided</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-cache</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>com.sun.jersey</groupId><artifactId>jersey-json</artifactId><version>1.19.4</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-crem-emission-admin</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>com.emc.ecs</groupId><artifactId>smart-client</artifactId><version>2.2.1</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.glassfish.jersey.bundles.repackaged</groupId><artifactId>jersey-guava</artifactId><version>2.22.1</version><scope>provided</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-xmlv4-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.integration</groupId><artifactId>sldng-batch-integration-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-client-rest-api</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>org.glassfish.jersey.core</groupId><artifactId>jersey-client</artifactId><version>2.22.1</version><scope>test</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log-base-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>com.google.guava</groupId><artifactId>guava</artifactId><version>19.0</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>com.fasterxml.jackson.core</groupId><artifactId>jackson-databind</artifactId><version>2.10.1</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-crem-emission-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.jboss.weld</groupId><artifactId>weld-api</artifactId><version>2.4.SP2</version><scope>test</scope></dependency>
+	<dependency><groupId>com.mchange</groupId><artifactId>c3p0</artifactId><version>0.9.5.4</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-securite-api</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>com.fasterxml.jackson.jaxrs</groupId><artifactId>jackson-jaxrs-json-provider</artifactId><version>2.5.4</version><scope>provided</scope></dependency>
+	<dependency><groupId>org.javassist</groupId><artifactId>javassist</artifactId><version>3.18.1-GA</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.eclipse.persistence</groupId><artifactId>commonj.sdo</artifactId><version>2.1.1</version><scope>provided</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log-base-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-parametrage-impl</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-jms-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>com.mchange</groupId><artifactId>mchange-commons-java</artifactId><version>0.2.15</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.stra.service.gedfa</groupId><artifactId>gedfa-d57-client-sld</artifactId><version>1.0.9-8</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.glassfish.hk2</groupId><artifactId>osgi-resource-locator</artifactId><version>1.0.1</version><scope>provided</scope></dependency>
+	<dependency><groupId>org.jboss.resteasy</groupId><artifactId>resteasy-jaxrs</artifactId><version>3.0.14.Final</version><scope>test</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-batch-contexte-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-client-sld-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.jboss.weld.probe</groupId><artifactId>weld-probe-core</artifactId><version>2.4.7.Final</version><scope>test</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-configuration-externe-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.glassfish.jersey.core</groupId><artifactId>jersey-server</artifactId><version>2.22.1</version><scope>test</scope></dependency>
+	<dependency><groupId>org.quartz-scheduler</groupId><artifactId>quartz-jobs</artifactId><version>2.3.2</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.webjars.npm</groupId><artifactId>jws</artifactId><version>3.2.2</version><scope>compile</scope></dependency>
+	<dependency><groupId>joda-time</groupId><artifactId>joda-time</artifactId><version>2.8.2</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-supervision-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log-achaud</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.jboss.weld</groupId><artifactId>weld-spi</artifactId><version>2.4.SP2</version><scope>test</scope></dependency>
+	<dependency><groupId>org.apache.deltaspike.core</groupId><artifactId>deltaspike-core-api</artifactId><version>1.0.1</version><scope>test</scope></dependency>
+	<dependency><groupId>org.apache.commons</groupId><artifactId>commons-collections4</artifactId><version>4.0</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.picpe.tools</groupId><artifactId>Manifest</artifactId><version>2.0.0-86</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-annuaire-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log-centralise-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.webjars.npm</groupId><artifactId>jwa</artifactId><version>1.4.1</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.webjars.npm</groupId><artifactId>lodash.isstring</artifactId><version>4.0.1</version><scope>compile</scope></dependency>
+	<dependency><groupId>com.zaxxer</groupId><artifactId>HikariCP-java7</artifactId><version>2.4.13</version><scope>compile</scope></dependency>
+	<dependency><groupId>com.sun.jersey</groupId><artifactId>jersey-client</artifactId><version>1.19.4</version><scope>compile</scope></dependency>
+	<dependency><groupId>com.emc.ecs</groupId><artifactId>object-client</artifactId><version>3.1.3</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.integration</groupId><artifactId>sldng-integration-rest-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>com.sun.xml.bind</groupId><artifactId>jaxb-impl</artifactId><version>2.2.3-1</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.integration</groupId><artifactId>sldng-batch-integration</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.glassfish.jersey.connectors</groupId><artifactId>jersey-apache-connector</artifactId><version>2.21.1</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-batch-admin</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.glassfish.jersey.ext</groupId><artifactId>jersey-entity-filtering</artifactId><version>2.22.1</version><scope>provided</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-client-rest-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-jms-api</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>org.codehaus.jackson</groupId><artifactId>jackson-mapper-asl</artifactId><version>1.9.13</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.glassfish.jersey.containers</groupId><artifactId>jersey-container-grizzly2-http</artifactId><version>2.22.1</version><scope>test</scope></dependency>
+	<dependency><groupId>xmlunit</groupId><artifactId>xmlunit</artifactId><version>1.5</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.apache.logging.log4j</groupId><artifactId>log4j-api</artifactId><version>2.14.0</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.ow2.asm</groupId><artifactId>asm-debug-all</artifactId><version>5.0.4</version><scope>test</scope></dependency>
+	<dependency><groupId>org.glassfish.grizzly</groupId><artifactId>grizzly-http</artifactId><version>2.3.23</version><scope>test</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-batch-lanceur</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.noggit</groupId><artifactId>noggit</artifactId><version>0.8</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.b1.pack</groupId><artifactId>lzma-sdk-4j</artifactId><version>9.22.0</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.skyscreamer</groupId><artifactId>jsonassert</artifactId><version>1.2.3</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-snmp-api</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>io.swagger.core.v3</groupId><artifactId>swagger-annotations</artifactId><version>2.1.7</version><scope>compile</scope></dependency>
+	<dependency><groupId>com.fasterxml</groupId><artifactId>classmate</artifactId><version>1.0.0</version><scope>provided</scope></dependency>
+	<dependency><groupId>org.webjars.npm</groupId><artifactId>jsonwebtoken</artifactId><version>8.5.1</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-carteappel-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.integration</groupId><artifactId>sldng-integration-rest-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.jboss.weld.se</groupId><artifactId>weld-se-core</artifactId><version>2.4.7.Final</version><scope>test</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-erreur-rest-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>org.glassfish.grizzly</groupId><artifactId>grizzly-http-servlet</artifactId><version>2.3.23</version><scope>test</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.integration</groupId><artifactId>sldng-integration-commun-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>org.glassfish.jersey.ext</groupId><artifactId>jersey-bean-validation</artifactId><version>2.22.1</version><scope>provided</scope></dependency>
+	<dependency><groupId>net.ttddyy</groupId><artifactId>datasource-proxy</artifactId><version>1.7</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.glassfish.jersey.containers</groupId><artifactId>jersey-container-grizzly2-servlet</artifactId><version>2.22.1</version><scope>test</scope></dependency>
+	<dependency><groupId>org.hibernate</groupId><artifactId>hibernate-validator</artifactId><version>5.1.3.Final</version><scope>provided</scope></dependency>
+	<dependency><groupId>org.objenesis</groupId><artifactId>objenesis</artifactId><version>2.1</version><scope>test</scope></dependency>
+	<dependency><groupId>org.apache.httpcomponents</groupId><artifactId>httpmime</artifactId><version>4.5.3</version><scope>compile</scope></dependency>
+	<dependency><groupId>com.sun.jersey.contribs</groupId><artifactId>jersey-apache-client4</artifactId><version>1.19.4</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.webjars.npm</groupId><artifactId>ms</artifactId><version>2.1.3</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-anonymiseur</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>javax.el</groupId><artifactId>javax.el-api</artifactId><version>2.2.4</version><scope>provided</scope></dependency>
+	<dependency><groupId>org.jboss.weld.environment</groupId><artifactId>weld-environment-common</artifactId><version>2.4.7.Final</version><scope>test</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-batch-contexte</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.apache.zookeeper</groupId><artifactId>zookeeper</artifactId><version>3.4.10</version><scope>compile</scope></dependency>
+	<dependency><groupId>xpp3</groupId><artifactId>xpp3</artifactId><version>1.1.4c</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-contexte-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>org.glassfish.jersey.test-framework</groupId><artifactId>jersey-test-framework-core</artifactId><version>2.22.1</version><scope>test</scope></dependency>
+	<dependency><groupId>org.apache.commons</groupId><artifactId>commons-lang3</artifactId><version>3.4</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.webjars.npm</groupId><artifactId>lodash.isplainobject</artifactId><version>4.0.6</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-jms-externe</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>org.glassfish.hk2</groupId><artifactId>hk2-utils</artifactId><version>2.4.0-b31</version><scope>provided</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-exception-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-contexte-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.glassfish.grizzly</groupId><artifactId>grizzly-framework</artifactId><version>2.3.23</version><scope>test</scope></dependency>
+	<dependency><groupId>org.glassfish.hk2.external</groupId><artifactId>aopalliance-repackaged</artifactId><version>2.4.0-b31</version><scope>provided</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-crem-emission-admin-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>org.mockito</groupId><artifactId>mockito-core</artifactId><version>1.10.19</version><scope>test</scope></dependency>
+	<dependency><groupId>io.github.classgraph</groupId><artifactId>classgraph</artifactId><version>4.1.2</version><scope>test</scope></dependency>
+	<dependency><groupId>org.webjars.npm</groupId><artifactId>lodash.once</artifactId><version>4.1.1</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.apache.solr</groupId><artifactId>solr-solrj</artifactId><version>7.2.1</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-batch-lanceur-impl</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-batch-lanceur-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.jboss.spec.javax.ws.rs</groupId><artifactId>jboss-jaxrs-api_2.0_spec</artifactId><version>1.0.0.Final</version><scope>test</scope></dependency>
+	<dependency><groupId>org.glassfish.jersey.containers</groupId><artifactId>jersey-container-servlet</artifactId><version>2.22.1</version><scope>test</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-client-asynchrone-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.apache.commons</groupId><artifactId>commons-math3</artifactId><version>3.6.1</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-supervision</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>commons-io</groupId><artifactId>commons-io</artifactId><version>2.4</version><scope>compile</scope></dependency>
+	<dependency><groupId>io.jsonwebtoken</groupId><artifactId>jjwt</artifactId><version>0.9.1</version><scope>compile</scope></dependency>
+	<dependency><groupId>com.sun.mail</groupId><artifactId>javax.mail</artifactId><version>1.5.0</version><scope>provided</scope></dependency>
+	<dependency><groupId>org.apache.httpcomponents</groupId><artifactId>httpcore</artifactId><version>4.4.6</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.integration</groupId><artifactId>sldng-integration-rest</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-client-rest-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>com.fasterxml.jackson.core</groupId><artifactId>jackson-core</artifactId><version>2.10.1</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-annuaire</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.codehaus.jackson</groupId><artifactId>jackson-core-asl</artifactId><version>1.9.13</version><scope>compile</scope></dependency>
+	<dependency><groupId>com.fasterxml.jackson.jaxrs</groupId><artifactId>jackson-jaxrs-base</artifactId><version>2.5.4</version><scope>provided</scope></dependency>
+	<dependency><groupId>javax.validation</groupId><artifactId>validation-api</artifactId><version>1.1.0.Final</version><scope>provided</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-batch-commun-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.json</groupId><artifactId>json</artifactId><version>20190722</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log-base</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.jdom</groupId><artifactId>jdom2</artifactId><version>2.0.6</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.apache.httpcomponents</groupId><artifactId>httpclient</artifactId><version>4.5.3</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.webjars.npm</groupId><artifactId>lodash.isnumber</artifactId><version>3.0.3</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.webjars.npm</groupId><artifactId>lodash.includes</artifactId><version>4.3.0</version><scope>compile</scope></dependency>
+	<dependency><groupId>javax.xml.bind</groupId><artifactId>jaxb-api</artifactId><version>2.2.2</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-supervision-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>javax.activation</groupId><artifactId>activation</artifactId><version>1.1</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.reflections</groupId><artifactId>reflections</artifactId><version>0.9.10</version><scope>compile</scope></dependency>
+	<dependency><groupId>javax.enterprise</groupId><artifactId>cdi-api</artifactId><version>1.2</version><scope>test</scope></dependency>
+	<dependency><groupId>org.jboss.logging</groupId><artifactId>jboss-logging</artifactId><version>3.1.3.GA</version><scope>provided</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-snmp-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-client-event</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-quartz-commun-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.glassfish.jersey.test-framework.providers</groupId><artifactId>jersey-test-framework-provider-grizzly2</artifactId><version>2.22.1</version><scope>test</scope></dependency>
+	<dependency><groupId>commons-codec</groupId><artifactId>commons-codec</artifactId><version>1.10</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.webjars.npm</groupId><artifactId>buffer-equal-constant-time</artifactId><version>1.0.1</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-client-sld-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-chargement-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>javax.inject</groupId><artifactId>javax.inject</artifactId><version>1</version><scope>test</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-quartz-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-snmp</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-crem-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-client-asynchrone-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>org.webjars.npm</groupId><artifactId>lodash.isinteger</artifactId><version>4.0.4</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-client-asynchrone</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>javax.xml.stream</groupId><artifactId>stax-api</artifactId><version>1.0-2</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.rind.service.da014</groupId><artifactId>da014-rci-sldcli-clientSLDV4</artifactId><version>1.6-1</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.codehaus.jackson</groupId><artifactId>jackson-xc</artifactId><version>1.9.13</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.dr7.candidat</groupId><artifactId>DR7Candidat-client-SLD</artifactId><version>163.0.0</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.d01.internetdec</groupId><artifactId>D01InternetDEC-client-SLD</artifactId><version>163.0.0</version><scope>compile</scope></dependency>
+	<dependency><groupId>com.fasterxml.jackson.core</groupId><artifactId>jackson-annotations</artifactId><version>2.10.1</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-parametrage-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>com.emc.ecs</groupId><artifactId>object-transform</artifactId><version>1.1.0</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.glassfish.hk2</groupId><artifactId>hk2-locator</artifactId><version>2.4.0-b31</version><scope>provided</scope></dependency>
+	<dependency><groupId>org.slf4j</groupId><artifactId>slf4j-api</artifactId><version>1.7.7</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-annuaire-impl-externe</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>org.quartz-scheduler</groupId><artifactId>quartz</artifactId><version>2.3.2</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-anonymiseur-api</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>com.google.code.findbugs</groupId><artifactId>annotations</artifactId><version>2.0.1</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.glassfish.jersey.media</groupId><artifactId>jersey-media-jaxb</artifactId><version>2.22.1</version><scope>test</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-crem-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.jboss.spec.javax.interceptor</groupId><artifactId>jboss-interceptors-api_1.2_spec</artifactId><version>1.0.0.Final</version><scope>test</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-batch-commun-impl</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.webjars.npm</groupId><artifactId>semver</artifactId><version>5.7.1</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.webjars.npm</groupId><artifactId>ecdsa-sig-formatter</artifactId><version>1.0.11</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.jboss.classfilewriter</groupId><artifactId>jboss-classfilewriter</artifactId><version>1.1.2.Final</version><scope>test</scope></dependency>
+	<dependency><groupId>org.jboss.weld</groupId><artifactId>weld-core-impl</artifactId><version>2.4.7.Final</version><scope>test</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-crem-emission-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-batch-contexte-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.integration</groupId><artifactId>sldng-batch-integration-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-quartz-admin-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>org.eclipse.persistence</groupId><artifactId>javax.persistence</artifactId><version>2.1.1</version><scope>provided</scope></dependency>
+	<dependency><groupId>org.apache.tika</groupId><artifactId>tika-core</artifactId><version>1.10</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-cache-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.hamcrest</groupId><artifactId>hamcrest-core</artifactId><version>1.3</version><scope>test</scope></dependency>
+	<dependency><groupId>org.slf4j</groupId><artifactId>jcl-over-slf4j</artifactId><version>1.7.7</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.codehaus.woodstox</groupId><artifactId>woodstox-core-asl</artifactId><version>4.4.1</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-securite-util</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-quartz-commun-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>org.jboss.spec.javax.annotation</groupId><artifactId>jboss-annotations-api_1.2_spec</artifactId><version>1.0.0.Final</version><scope>test</scope></dependency>
+	<dependency><groupId>org.webjars.npm</groupId><artifactId>lodash.isboolean</artifactId><version>3.0.3</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.apache.logging.log4j</groupId><artifactId>log4j-core</artifactId><version>2.14.0</version><scope>runtime</scope></dependency>
+	<dependency><groupId>org.webjars.npm</groupId><artifactId>safe-buffer</artifactId><version>5.2.1</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.glassfish.jersey.media</groupId><artifactId>jersey-media-json-jackson</artifactId><version>2.22.1</version><scope>provided</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.moorea</groupId><artifactId>sldng-moorea-bouchons-commun</artifactId><version>2.1.2-b20160330-20</version><scope>compile</scope></dependency>
+	<dependency><groupId>javax</groupId><artifactId>javaee-api</artifactId><version>7.0</version><scope>provided</scope></dependency>
+	<dependency><groupId>org.glassfish.grizzly</groupId><artifactId>grizzly-http-server</artifactId><version>2.3.23</version><scope>test</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-commun-xmlv4-api</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-annuaire-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>javax.ws.rs</groupId><artifactId>javax.ws.rs-api</artifactId><version>2.0</version><scope>provided</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-batch-admin-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log-centralise-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log-centralise</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log-achaud-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
+	<dependency><groupId>javax.annotation</groupId><artifactId>javax.annotation-api</artifactId><version>1.2</version><scope>provided</scope></dependency>
+	<dependency><groupId>org.glassfish.hk2</groupId><artifactId>hk2-api</artifactId><version>2.4.0-b31</version><scope>provided</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-quartz-admin-api</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-parametrage</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.codehaus.woodstox</groupId><artifactId>stax2-api</artifactId><version>3.1.4</version><scope>compile</scope></dependency>
+	<dependency><groupId>net.sf.ehcache</groupId><artifactId>ehcache-core</artifactId><version>2.6.11</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.codehaus.jettison</groupId><artifactId>jettison</artifactId><version>1.1</version><scope>compile</scope></dependency>
+	<dependency><groupId>junit</groupId><artifactId>junit</artifactId><version>4.12</version><scope>test</scope></dependency>
+	<dependency><groupId>org.glassfish.hk2.external</groupId><artifactId>javax.inject</artifactId><version>2.4.0-b31</version><scope>provided</scope></dependency>
+	<dependency><groupId>org.snmp4j</groupId><artifactId>snmp4j</artifactId><version>2.8.2</version><scope>runtime</scope></dependency>
+	<dependency><groupId>org.beanio</groupId><artifactId>beanio</artifactId><version>2.1.0</version><scope>compile</scope></dependency>
+	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-chargement</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.jboss.spec.javax.el</groupId><artifactId>jboss-el-api_3.0_spec</artifactId><version>1.0.0.Alpha1</version><scope>test</scope></dependency>
   </dependencies>
 </project>
