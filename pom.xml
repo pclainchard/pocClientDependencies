@@ -173,7 +173,7 @@
 	<dependency><groupId>org.json</groupId><artifactId>json</artifactId><version>20190722</version><scope>compile</scope></dependency>
 	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-log-base</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
 	<dependency><groupId>org.jdom</groupId><artifactId>jdom2</artifactId><version>2.0.6</version><scope>compile</scope></dependency>
-	<dependency><groupId>org.apache.httpcomponents</groupId><artifactId>httpclient</artifactId><version>4.5.3</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.apache.httpcomponents</groupId><artifactId>httpclient</artifactId><version>4.5.13</version><scope>compile</scope></dependency>
 	<dependency><groupId>org.webjars.npm</groupId><artifactId>lodash.isnumber</artifactId><version>3.0.3</version><scope>compile</scope></dependency>
 	<dependency><groupId>org.webjars.npm</groupId><artifactId>lodash.includes</artifactId><version>4.3.0</version><scope>compile</scope></dependency>
 	<dependency><groupId>javax.xml.bind</groupId><artifactId>jaxb-api</artifactId><version>2.2.2</version><scope>compile</scope></dependency>
