@@ -233,7 +233,7 @@
 	<dependency><groupId>fr.pe.sldng.commun</groupId><artifactId>sldng-quartz-commun-impl</artifactId><version>2.10.2-b20210528-667</version><scope>runtime</scope></dependency>
 	<dependency><groupId>org.jboss.spec.javax.annotation</groupId><artifactId>jboss-annotations-api_1.2_spec</artifactId><version>1.0.0.Final</version><scope>test</scope></dependency>
 	<dependency><groupId>org.webjars.npm</groupId><artifactId>lodash.isboolean</artifactId><version>3.0.3</version><scope>compile</scope></dependency>
-	<dependency><groupId>org.apache.logging.log4j</groupId><artifactId>log4j-core</artifactId><version>2.14.0</version><scope>runtime</scope></dependency>
+	<dependency><groupId>org.apache.logging.log4j</groupId><artifactId>log4j-core</artifactId><version>2.15.0</version><scope>runtime</scope></dependency>
 	<dependency><groupId>org.webjars.npm</groupId><artifactId>safe-buffer</artifactId><version>5.2.1</version><scope>compile</scope></dependency>
 	<dependency><groupId>org.glassfish.jersey.media</groupId><artifactId>jersey-media-json-jackson</artifactId><version>2.22.1</version><scope>provided</scope></dependency>
 	<dependency><groupId>fr.pe.sldng.moorea</groupId><artifactId>sldng-moorea-bouchons-commun</artifactId><version>2.1.2-b20160330-20</version><scope>compile</scope></dependency>
