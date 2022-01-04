@@ -105,7 +105,7 @@
 	<dependency><groupId>org.codehaus.jackson</groupId><artifactId>jackson-mapper-asl</artifactId><version>1.9.13</version><scope>compile</scope></dependency>
 	<dependency><groupId>org.glassfish.jersey.containers</groupId><artifactId>jersey-container-grizzly2-http</artifactId><version>2.22.1</version><scope>test</scope></dependency>
 	<dependency><groupId>xmlunit</groupId><artifactId>xmlunit</artifactId><version>1.5</version><scope>compile</scope></dependency>
-	<dependency><groupId>org.apache.logging.log4j</groupId><artifactId>log4j-api</artifactId><version>2.14.0</version><scope>compile</scope></dependency>
+	<dependency><groupId>org.apache.logging.log4j</groupId><artifactId>log4j-api</artifactId><version>2.17.1</version><scope>compile</scope></dependency>
 	<dependency><groupId>org.ow2.asm</groupId><artifactId>asm-debug-all</artifactId><version>5.0.4</version><scope>test</scope></dependency>
 	<dependency><groupId>org.glassfish.grizzly</groupId><artifactId>grizzly-http</artifactId><version>2.3.23</version><scope>test</scope></dependency>
 	<dependency><groupId>fr.pe.sldng.module</groupId><artifactId>sldng-batch-lanceur</artifactId><version>2.10.2-b20210528-667</version><scope>compile</scope></dependency>
